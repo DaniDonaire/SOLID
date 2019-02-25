@@ -1,0 +1,16 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>netcoreapp2.2</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\DependencyInversion\DependencyInversion.csproj" />
+    <ProjectReference Include="..\InterfaceSegregation\InterfaceSegregation.csproj" />
+    <ProjectReference Include="..\LiskovSubstitution\LiskovSubstitution.csproj" />
+    <ProjectReference Include="..\OpenClosed\OpenClosed.csproj" />
+    <ProjectReference Include="..\SingleResponsibility\SingleResponsibility.csproj" />
+  </ItemGroup>
+
+</Project>
